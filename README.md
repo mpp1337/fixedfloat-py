@@ -1,6 +1,10 @@
 # Python module for FixedFloat.com API
 
-Implements the following API methods:
+## Install:
+
+`pip3 install fixedfloat-py`
+
+## Module implements the following API methods:
 
 -   Get currencies: `Getting a list of all currencies that are available on FixedFloat.com`;
 -   Get price: `Information about a currency pair with a set amount of funds`;
