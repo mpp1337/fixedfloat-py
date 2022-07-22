@@ -1,5 +1,9 @@
 # Python module for FixedFloat.com API
 
+## Pypi.org:
+
+`https://pypi.org/project/fixedfloat-py/`
+
 ## Install:
 
 `pip3 install fixedfloat-py`
