@@ -2,17 +2,16 @@
 
 Implements the following API methods:
 
-- Get currencies: `Getting a list of all currencies that are available on FixedFloat.com`;
-- Get price: `Information about a currency pair with a set amount of funds`;
-- Get order: `Receiving information about the order`;
-- Set emergency: `Emergency Action Choice`;
-- Create order: `Creating exchange orders`;
+-   Get currencies: `Getting a list of all currencies that are available on FixedFloat.com`;
+-   Get price: `Information about a currency pair with a set amount of funds`;
+-   Get order: `Receiving information about the order`;
+-   Set emergency: `Emergency Action Choice`;
+-   Create order: `Creating exchange orders`;
 
-
-## How to use: 
+## How to use:
 
 ```python3
-from FixedFloat import FixedFloat
+from fixedfloat.fixedfloat import FixedFloat
 
 api = FixedFloat("API_PUBLIC","API_SECRET")
 
@@ -33,11 +32,11 @@ print(api.get_order("ORDER_ID", "TOKEN")) # you can get TOKEN after creating an 
 
 print(api.get_price("ETH", 0.5, "BTC", "fixed"))
 
-# Setting emergency: 
+# Setting emergency:
 
 print(api.set_emergency("ORDER_ID", "TOKEN", "EXCHANGE"))
 ```
 
-## Reference: 
+## Reference:
 
 https://fixedfloat.com/api

@@ -1,2 +1,6 @@
 venv
 setup.py
+build
+dist
+fixedfloat_py.egg-info
+__init__.py
